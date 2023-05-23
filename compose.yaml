@@ -5,7 +5,7 @@ services:
     # '.' represents the current directory in which
     # docker-compose.yml is present.
     # build: .
-    image: alvinjoseph/snapmint-tutorial
+    image: alvinjoseph/snapmint-tutorial:latest
 
     # Mapping of container port to host
     
