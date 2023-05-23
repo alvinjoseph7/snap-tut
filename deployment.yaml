@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-nginx-setup
+  name: jenkins-deploy
 spec:
   selector:
     matchLabels:
@@ -13,7 +13,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
+      - name: snapmint-cont
         image: alvinjoseph/snapmint-tutorial
         ports:
         - containerPort: 80
