@@ -9,10 +9,11 @@ services:
     # Mapping of container port to host
     
     ports:
-      - target: 80
-        host_ip: 127.0.0.1
-        published: "8000"
-        protocol: tcp
-        mode: host
+      - 127.0.0.1:8080:80 
+      # - target: 80
+      #   host_ip: 127.0.0.1
+      #   published: "8000"
+      #   protocol: tcp
+      #   mode: host
 
     
