@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: snapmint-cont
-        image: alvinjoseph/snapmint-tutorial
+        image: alvinjoseph/snapmint-tutorial:latest
         ports:
         - containerPort: 80
