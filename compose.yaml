@@ -9,7 +9,7 @@ services:
     # Mapping of container port to host
     
     ports:
-      - 127.0.0.1:8080:80 
+      - 127.0.0.1:8000:80 
       # - target: 80
       #   host_ip: 127.0.0.1
       #   published: "8000"
